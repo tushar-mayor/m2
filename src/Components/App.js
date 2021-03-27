@@ -6,7 +6,6 @@ import Home from "./Home";
 import SmartPhone from "./SmartPhone";
 import Tablet from "./Tablet";
 import Laptop from "./Laptop";
-import ScrollToTop from "./ScrollToTop";
 import Electronics from "./Electronics";
 import Console from "./Console";
 import Computer from "./Computer";
@@ -14,8 +13,7 @@ import OurServices from "./OurServices";
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={Home}></Route>
         <Route path="/About" component={About}></Route>
