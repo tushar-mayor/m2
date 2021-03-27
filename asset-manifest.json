@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/m2/static/css/main.09e0147e.chunk.css",
+    "main.js": "/m2/static/js/main.a659eed8.chunk.js",
+    "main.js.map": "/m2/static/js/main.a659eed8.chunk.js.map",
+    "runtime-main.js": "/m2/static/js/runtime-main.8690efac.js",
+    "runtime-main.js.map": "/m2/static/js/runtime-main.8690efac.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/m2/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c9277cd7.chunk.js": "/m2/static/js/2.c9277cd7.chunk.js",
+    "static/js/2.c9277cd7.chunk.js.map": "/m2/static/js/2.c9277cd7.chunk.js.map",
+    "static/js/3.20dbea9f.chunk.js": "/m2/static/js/3.20dbea9f.chunk.js",
+    "static/js/3.20dbea9f.chunk.js.map": "/m2/static/js/3.20dbea9f.chunk.js.map",
+    "index.html": "/m2/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/m2/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.09e0147e.chunk.css.map": "/m2/static/css/main.09e0147e.chunk.css.map",
+    "static/js/2.c9277cd7.chunk.js.LICENSE.txt": "/m2/static/js/2.c9277cd7.chunk.js.LICENSE.txt",
+    "static/media/Computer.c9851b43.svg": "/m2/static/media/Computer.c9851b43.svg",
+    "static/media/Console.0c866716.svg": "/m2/static/media/Console.0c866716.svg",
+    "static/media/Electronix.1b78d8f5.svg": "/m2/static/media/Electronix.1b78d8f5.svg",
+    "static/media/Laptop.d51fe2ca.svg": "/m2/static/media/Laptop.d51fe2ca.svg",
+    "static/media/SmartPhone.1cacb35b.svg": "/m2/static/media/SmartPhone.1cacb35b.svg",
+    "static/media/Tablet.a218973c.svg": "/m2/static/media/Tablet.a218973c.svg",
+    "static/media/index.css": "/m2/static/media/welcome.ce8a65ed.jpg",
+    "static/media/logo.a582fd79.svg": "/m2/static/media/logo.a582fd79.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8690efac.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c9277cd7.chunk.js",
+    "static/css/main.09e0147e.chunk.css",
+    "static/js/main.a659eed8.chunk.js"
+  ]
+}
