@@ -1,13 +1,18 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
 export default function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Contact</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <NavBar page="about " />
-      <Row className="h-100 align-items-center justify-content-center">
-        <Col lg={3} className="mx-lg-3 ">
+      <Row className="m-0  justify-content-between">
+        <Col lg={4} sm={12} className="p-auto m-auto">
           <h1>Contact</h1>
           <h5>
             Phone:
@@ -22,10 +27,13 @@ export default function Contact() {
             <span>Hno. 612,Karol Bagh ,Jalandhar</span>
           </h5>
         </Col>
-        <Col lg={8} className="row align-items-lg-center h-100">
-          <div className="ContactCover bg-dark h-75 w-100 mw-100" />
+        <Col lg={8} sm={12}>
+          <div className="ContactCover Cover  " 
+            style={{ height: "90vh" }}
+          />
         </Col>
       </Row>
+      <br/>
     </>
   );
 }

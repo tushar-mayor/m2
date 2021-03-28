@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
 export default function About() {
   return (
     <>
+      <Helmet>
+        <title>About</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <NavBar page="about " />
 
       <Container>
@@ -33,7 +38,7 @@ export default function About() {
       </Container>
       <Container fluid>
         <Row className=" p-3 bg-dark">
-          <Col lg={6}>
+          <Col lg={6} className="m-0 p-0 px-md-3">
             <div className=" AboutCover Cover " />
           </Col>
           <Col lg={6} className="  justify-content-center p-5 text-light">

@@ -1,27 +1,33 @@
 import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 import Welcome from "./Welcome";
 
 export default function Home() {
-  return (
-    <>
-      <div className="HomeCover Cover">
-        <NavBar page="home" />
-        <Row className="h-100 p-5 text-light font-weight-bold ">
+    return (
+        <>
+            <Helmet>
+                <title>Home</title>
+                <meta name="description" content="Helmet application" />
+            </Helmet>
+            <div className="HomeCover Cover">
+            <NavBar page="home"/>
+        <Row className="h-100 text-light font-weight-bold ">
           <Col
-            lg={12}
-            className="d-flex justify-content-md-center align-items-center"
-          >
-            <div className="text-center">
-              <Row className="row1 ">We Take Care of</Row>
-              <Row className="row2">Your Phone!</Row>
-              <Button variant="light p-2">See Our Services</Button>
-            </div>
+            lg={6}
+            className="offset-md-6 d-flex justify-content-lg-center align-items-center 
+                        text-center">
+              <Row className="row1  text-capitalize" style={{maxWidth:"30rem"}}>
+                We Take care of
+                 your Phone!
+                 
+              </Row>
           </Col>
         </Row>
       </div>
-      <Welcome />
-    </>
-  );
+      <br/>
+            <Welcome />
+        </>
+    );
 }

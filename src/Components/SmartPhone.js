@@ -1,12 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
-export default function About() {
+export default function SmartPhone() {
   return (
     <>
+      <Helmet>
+        <title>SmartPhone</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <NavBar page="about " />
-      <div className="smartPhoneCover Cover">
+      <div className="smartPhoneCover Cover" >
         <Row className="h-100 p-5 text-light font-weight-bold ">
           <Col
             lg={12}
@@ -17,7 +22,7 @@ export default function About() {
               <Row className="row1 d-flex justify-content-center">
                 Service as a Service
               </Row>
-              <Row className="">
+              <Row >
                 We fix all smartphone models, make a diagnostic and replace all
                 non-working parts at record terms.
               </Row>
@@ -26,15 +31,13 @@ export default function About() {
         </Row>
       </div>
       <Container>
-        <Row className="py-3">
+        <Row className=" p-3">
           <h1 className="">Smartphone Repair</h1>
           <h3>
             Except standard services we offer additional ones which can be made
             urgently
           </h3>
-        </Row>
-        <Row className="py-1    ">
-          <p className="text-muted">
+          <span className="text-muted">
             <span className="text-dark font-weight-bold">Data Recovery –</span>
             Need important data that you’re afraid of losing? We provide both
             data back up and data recovery services, so whether your hard drive
@@ -43,9 +46,7 @@ export default function About() {
             and recovery on a range of memory types; from external and internal
             hard drives, to Micro SD cards for phones, memory cards for cameras,
             and even the newest SSD drives.
-          </p>
-        </Row>
-        <Row className="py-1    ">
+          </span>
           <p className="text-muted">
             <span className="text-dark font-weight-bold">Unlock –</span>
             If you recently changed networks and don’t want to pay for a new
@@ -56,8 +57,6 @@ export default function About() {
             our free quick estimate section to find out more about getting your
             phone unlocked.
           </p>
-        </Row>
-        <Row className="py-1    ">
           <p className="text-muted">
             <span className="text-dark font-weight-bold">
               Engineering Report –
@@ -70,8 +69,6 @@ export default function About() {
             faults, do that you can have a qualified electronic engineer to back
             you up.
           </p>
-        </Row>
-        <Row>
           <ul className="text-muted ">
             <span className="font-weight-bold">
               Engineering Reports can be used for:

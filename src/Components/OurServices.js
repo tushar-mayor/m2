@@ -1,11 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 import Services from "./Services";
 
 export default function OurServices() {
   return (
     <>
+      <Helmet>
+        <title>Services</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <NavBar />
       <Row className="container-fluid py-3 ">
         <span className="display-4 text-center text-capitalize">
@@ -14,16 +19,17 @@ export default function OurServices() {
       </Row>
 
       <Row
-        className="row-cols-2 py-3 HomeCover Cover m-0 my-5 text-light align-items-lg-baseline"
+        className="ServiceCover Cover m-0  text-light "
         style={{ height: "100vh" }}
       >
-        <Col
-          className="offset-lg-6 offset-md-5 p-5"
+        <Col  sm={12} lg={6}
+          className="offset-lg-6  my-auto"
           style={{ fontSize: "1.1rem" }}
         >
-          <h1 className="my-auto " style={{ fontSize: "5rem" }}>
-            OUR
-            <br /> SERVICES
+        <div className="m-auto ">
+
+          <h1 >
+            OUR SERVICES
           </h1>
           <br />
           <p>
@@ -41,8 +47,10 @@ export default function OurServices() {
             level techs at each location. From charging ports to glass only
             repairs to antennas and speakers, we repair the most.
           </p>
+        </div>
         </Col>
       </Row>
+      <br/>
       <Services />
     </>
   );

@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
 export default function Electronics() {
   return (
     <>
+      <Helmet>
+        <title>Electronics</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <NavBar page="about " />
       <div className="HomeCover h-75">
         <Row className="h-100 p-5 text-light font-weight-bold ">

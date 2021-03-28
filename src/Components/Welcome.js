@@ -3,12 +3,13 @@ import { Col, Row } from "react-bootstrap";
 import Services from "./Services";
 
 export default function Welcome() {
+  
   return (
     <>
-      <Row>
-        <Col lg={6}>
-          <Row className=" p-5">
-            <Col lg={6} className="offset-lg-6">
+      <Row className="p-3 mx-0">
+        <Col lg={6} md={12} className=" p-3">
+          <Row >
+            <Col lg={7} className="offset-lg-5">
               <h3>Welcome To</h3>
               <h1 className="font-weight-bold">Brand Name</h1>
               <h5 className="text-black-50">We Fix Everything!</h5>
@@ -28,17 +29,17 @@ export default function Welcome() {
             </Col>
           </Row>
         </Col>
-        <Col lg={6} className="p-5">
-          <div className="welcomeImg " />
+        <Col lg={6} md={12}  style={{minHeight:"60vh"}} >
+          <div className="welcomeImg" />
         </Col>
       </Row>
-      <Row>
-        <Col lg={6} className="p-5">
+      <Row className="p-0 m-0 p-md-3"  > 
+        <Col lg={6} className="p-5" style={{minHeight:"60vh"}} >
           <div className="welcomeImg1"></div>
         </Col>
         <Col lg={6}>
-          <Row className="align-items-center justify-content-end ">
-            <Col lg={12} className=" p-5">
+          <Row >
+            <Col lg={12} >
               <h1 className="font-weight-bolder ">Why Choose Us.?</h1>
               <div className="px-lg-3 ">
                 <div>
