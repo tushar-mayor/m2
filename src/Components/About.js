@@ -13,8 +13,8 @@ export default function About() {
       <NavBar page="about " />
 
       <Container>
-        <Row className="py-5">
-          <h1 className="display-3 w-100 text-center  pb-3 font-weight-bold">
+        <Row className="m-0 justify-content-center">
+          <h1 className="display-3 w-100 text-center  font-weight-bold">
             About Us
           </h1>
           <p className="lead">

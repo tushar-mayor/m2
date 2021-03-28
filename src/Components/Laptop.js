@@ -11,34 +11,31 @@ export default function Laptop() {
         <meta name="description" content="Helmet application" />
       </Helmet>
       <NavBar page="about " />
-      <div className="LaptopCover Cover h-75">
-        <Row className="h-100 p-5 text-light font-weight-bold ">
+      <div className="LaptopCover Cover ">
+        <Row className="text-light  font-weight-bold m-auto h-full ">
           <Col
             lg={12}
-            className="d-flex justify-content-lg-center align-items-center 
-                        text-center"
+            className="m-auto text-center"
           >
             <div>
-              <Row className="row1 d-flex justify-content-center">
+              <div className="row1">
                 Service as a Service
-              </Row>
-              <Row className="">
+              </div>
+              <div >
                 We fix all smartphone models, make a diagnostic and replace all
                 non-working parts at record terms.
-              </Row>
+              </div>
             </div>
           </Col>
         </Row>
       </div>
       <Container>
-        <Row className="py-3">
+        <Row className="p-3">
           <h1 className="">Laptop Repair</h1>
           <h3>
             Except standard services we offer additional ones which can be made
             urgently
           </h3>
-        </Row>
-        <Row className="py-1    ">
           <p className="text-muted">
             <span className="text-dark font-weight-bold">Data Recovery –</span>
             Need important data that you’re afraid of losing? We provide both
@@ -49,8 +46,6 @@ export default function Laptop() {
             hard drives, to Micro SD cards for phones, memory cards for cameras,
             and even the newest SSD drives.
           </p>
-        </Row>
-        <Row className="py-1    ">
           <p className="text-muted">
             <span className="text-dark font-weight-bold">Unlock –</span>
             If you recently changed networks and don’t want to pay for a new
@@ -61,8 +56,6 @@ export default function Laptop() {
             our free quick estimate section to find out more about getting your
             phone unlocked.
           </p>
-        </Row>
-        <Row className="py-1    ">
           <p className="text-muted">
             <span className="text-dark font-weight-bold">
               Engineering Report –
@@ -75,8 +68,6 @@ export default function Laptop() {
             faults, do that you can have a qualified electronic engineer to back
             you up.
           </p>
-        </Row>
-        <Row>
           <ul className="text-muted ">
             <span className="font-weight-bold">
               Engineering Reports can be used for:

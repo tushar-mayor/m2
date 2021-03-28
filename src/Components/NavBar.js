@@ -8,12 +8,12 @@ export default function NavBar({ page }) {
     <>
       <Navbar
         variant="dark"
-        bg={`${page !== "home" ? "dark" : ""}`}
+        bg="dark"
         className="d-flex justify-content-lg-between position-sticky"
       >
         <Logo
-          style={{ height: "3rem" }}
-          fill={`${page !== "home" ? "red" : "yellow"}`}
+          style={{ height: "4rem" }}
+          fill="#fff"
         />
         <Nav className="font-weight-bolder ">
           <NavLink

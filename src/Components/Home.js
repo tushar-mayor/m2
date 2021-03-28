@@ -11,22 +11,20 @@ export default function Home() {
                 <title>Home</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
-            <div className="HomeCover Cover">
-            <NavBar page="home"/>
-        <Row className="h-100 text-light font-weight-bold ">
-          <Col
-            lg={6}
-            className="offset-md-6 d-flex justify-content-lg-center align-items-center 
-                        text-center">
-              <Row className="row1  text-capitalize" style={{maxWidth:"30rem"}}>
-                We Take care of
-                 your Phone!
-                 
-              </Row>
-          </Col>
-        </Row>
-      </div>
-      <br/>
+                    <NavBar page="home" />
+            <div className="HomeCover Cover ">
+                <Row className="text-light  font-weight-bold m-auto h-full">
+                    <Col lg={6} className=" offset-lg-6 my-auto">
+                        <Row
+                            className="row1  text-center m-auto text-capitalize"
+                            style={{ maxWidth: "30rem" }}
+                        >
+                            We Take care of your Phone!
+                        </Row>
+                    </Col>
+                </Row>
+            </div>
+            <br />
             <Welcome />
         </>
     );

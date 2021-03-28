@@ -11,11 +11,11 @@ import { NavLink } from "react-router-dom";
 export default function Services() {
     return (
         <>
-            <Row className="row-cols-md-3 row-cols-1" >
+            <Row className="row-cols-md-3 row-cols-1 m-0 "  >
                 <Col >
                     <NavLink
                         to="/SmartPhone"
-                        className=" text-decoration-none text-dark"
+                        className=" text-decoration-none text-dark" 
                     >
                         <Row className="Services">
                             <Col >

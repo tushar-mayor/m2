@@ -12,20 +12,19 @@ export default function SmartPhone() {
       </Helmet>
       <NavBar page="about " />
       <div className="smartPhoneCover Cover" >
-        <Row className="h-100 p-5 text-light font-weight-bold ">
+        <Row className="text-light  font-weight-bold m-auto h-full ">
           <Col
             lg={12}
-            className="d-flex justify-content-lg-center align-items-center 
-                        text-center"
+            className="m-auto text-center"
           >
             <div>
-              <Row className="row1 d-flex justify-content-center">
+              <div className="row1">
                 Service as a Service
-              </Row>
-              <Row >
+              </div>
+              <div >
                 We fix all smartphone models, make a diagnostic and replace all
                 non-working parts at record terms.
-              </Row>
+              </div>
             </div>
           </Col>
         </Row>
