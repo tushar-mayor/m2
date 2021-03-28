@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/m2/static/css/main.09e0147e.chunk.css",
-    "main.js": "/m2/static/js/main.5c1bc42f.chunk.js",
-    "main.js.map": "/m2/static/js/main.5c1bc42f.chunk.js.map",
-    "runtime-main.js": "/m2/static/js/runtime-main.8690efac.js",
-    "runtime-main.js.map": "/m2/static/js/runtime-main.8690efac.js.map",
+    "main.css": "/m2/static/css/main.b60af55b.chunk.css",
+    "main.js": "/m2/static/js/main.58b5c39d.chunk.js",
+    "main.js.map": "/m2/static/js/main.58b5c39d.chunk.js.map",
+    "runtime-main.js": "/m2/static/js/runtime-main.a96b5112.js",
+    "runtime-main.js.map": "/m2/static/js/runtime-main.a96b5112.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/m2/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3e67c438.chunk.js": "/m2/static/js/2.3e67c438.chunk.js",
-    "static/js/2.3e67c438.chunk.js.map": "/m2/static/js/2.3e67c438.chunk.js.map",
-    "static/js/3.20dbea9f.chunk.js": "/m2/static/js/3.20dbea9f.chunk.js",
-    "static/js/3.20dbea9f.chunk.js.map": "/m2/static/js/3.20dbea9f.chunk.js.map",
+    "static/js/2.7be7f969.chunk.js": "/m2/static/js/2.7be7f969.chunk.js",
+    "static/js/2.7be7f969.chunk.js.map": "/m2/static/js/2.7be7f969.chunk.js.map",
+    "static/js/3.9d47d2b6.chunk.js": "/m2/static/js/3.9d47d2b6.chunk.js",
+    "static/js/3.9d47d2b6.chunk.js.map": "/m2/static/js/3.9d47d2b6.chunk.js.map",
     "index.html": "/m2/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/m2/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.09e0147e.chunk.css.map": "/m2/static/css/main.09e0147e.chunk.css.map",
-    "static/js/2.3e67c438.chunk.js.LICENSE.txt": "/m2/static/js/2.3e67c438.chunk.js.LICENSE.txt",
+    "static/css/main.b60af55b.chunk.css.map": "/m2/static/css/main.b60af55b.chunk.css.map",
+    "static/js/2.7be7f969.chunk.js.LICENSE.txt": "/m2/static/js/2.7be7f969.chunk.js.LICENSE.txt",
     "static/media/Computer.c9851b43.svg": "/m2/static/media/Computer.c9851b43.svg",
-    "static/media/Console.0c866716.svg": "/m2/static/media/Console.0c866716.svg",
+    "static/media/Console.01f89540.svg": "/m2/static/media/Console.01f89540.svg",
     "static/media/Electronix.1b78d8f5.svg": "/m2/static/media/Electronix.1b78d8f5.svg",
     "static/media/Laptop.d51fe2ca.svg": "/m2/static/media/Laptop.d51fe2ca.svg",
     "static/media/SmartPhone.1cacb35b.svg": "/m2/static/media/SmartPhone.1cacb35b.svg",
     "static/media/Tablet.a218973c.svg": "/m2/static/media/Tablet.a218973c.svg",
     "static/media/index.css": "/m2/static/media/welcome.ce8a65ed.jpg",
-    "static/media/logo.a582fd79.svg": "/m2/static/media/logo.a582fd79.svg"
+    "static/media/logo.09bdcfa2.svg": "/m2/static/media/logo.09bdcfa2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8690efac.js",
+    "static/js/runtime-main.a96b5112.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3e67c438.chunk.js",
-    "static/css/main.09e0147e.chunk.css",
-    "static/js/main.5c1bc42f.chunk.js"
+    "static/js/2.7be7f969.chunk.js",
+    "static/css/main.b60af55b.chunk.css",
+    "static/js/main.58b5c39d.chunk.js"
   ]
 }
