@@ -4,13 +4,14 @@ import { NavLink } from "react-router-dom";
 import {ReactComponent as SmartPhoneSvg} from '../Smartphone.svg'
 import {ReactComponent as Iphone} from '../Apple.svg'
 import {ReactComponent as Android} from '../Android.svg'
+import {ReactComponent as Vape} from '../Vape.svg'
 export default function Services() {
     return (
-        <Container fluid>
+        <Container fluid className="my-3 py-3">
             <Row className="row-cols-md-3 row-cols-1 justify-content-around m-0">
                 <Col>
                     <NavLink
-                        to="/SmartPhone"
+                        to="/Android"
                         className=" text-decoration-none text-dark"
                     >
                         <Row className="Services">
@@ -19,7 +20,7 @@ export default function Services() {
                                 <SmartPhoneSvg/>
                             </Col>
                             <Col lg={8}>
-                                <h4>SmartPhone Repair</h4>
+                                <h4>Android Repair</h4>
                                 <p className="text-muted">
                                     We fix all smartphone models, make a
                                     diagnostic and replace all non-working parts
@@ -51,15 +52,15 @@ export default function Services() {
                 </Col>
                 <Col>
                     <NavLink
-                        to="/SmartPhone"
+                        to="/Vape"
                         className=" text-decoration-none text-dark"
                     >
                         <Row className="Services">
                             <Col className="bg-light ">
-                                <Android/>
+                                <Vape />
                             </Col>
                             <Col lg={8}>
-                                <h4>Android Repair</h4>
+                                <h4>Vape Services</h4>
                                 <p className="text-muted">
                                     We fix all smartphone models, make a
                                     diagnostic and replace all non-working parts

@@ -1,26 +1,13 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
-export default function Iphone() {
-    function importAll(r) {
-        let cardList = [];
-        cardList = r.keys().map((item) => {
-            const name = item.split(".")[1].replace("/", "");
-            const url = r(item).default;
-            return { name, url };
-        });
-        return cardList;
-    }
-
-    const images = importAll(
-        require.context("../Assests/Images/Apple", false, /\.(png|jpe?g|svg)$/)
-    );
+export default function Vape() {
     return (
         <>
             <Helmet>
-                <title>Iphone</title>
+                <title>Vape Services</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <NavBar page="about " />
@@ -43,14 +30,10 @@ export default function Iphone() {
             </Row>
             <Container>
                 <Row className="p-3 text-muted">
-                    <h1 className="text-dark">Iphone Repair</h1>
-                    <h3>
-                        Except standard services we offer additional ones which
-                        can be made urgently
-                    </h3>
+                    <h1 className="text-dark">Vape Services</h1>
                     <p>
                         <span className="text-dark font-weight-bold">
-                            Data Recovery –
+                            Sale –
                         </span>
                         Need important data that you’re afraid of losing? We
                         provide both data back up and data recovery services, so
@@ -64,7 +47,7 @@ export default function Iphone() {
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
-                            Unlock –
+                            Battery Replacement –
                         </span>
                         If you recently changed networks and don’t want to pay
                         for a new phone, why not have the phone network
@@ -77,7 +60,7 @@ export default function Iphone() {
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
-                            Screen Replacement-
+                            Smoke Intersifier -
                         </span>
                         Smartphone screens are brittle, and it's only a matter
                         of time before you need your screen fixed - Our
@@ -90,15 +73,15 @@ export default function Iphone() {
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
-                            Water Damage-
+                            Chamber Cleaning-
                         </span>
                         Water damaged motherboard, or display demands expert
-                        intervention! Get your  smartphone repaired at
-                        best market price with up to 6 months warranty.
+                        intervention! Get your smartphone repaired at best
+                        market price with up to 6 months warranty.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
-                            Engineering Report –
+                            Filter Change –
                         </span>
                         Thankfully, even if devices can’t be repaired, there’s
                         still a solution. If you have your device insured, or
@@ -109,26 +92,9 @@ export default function Iphone() {
                         faults, do that you can have a qualified electronic
                         engineer to back you up.
                     </p>
-                    <ul>
-                        <span className="font-weight-bold">
-                            Engineering Reports can be used for:
-                        </span>
-                        <li className="p-1">Resale of Electronic Items</li>
-                        <li className="p-1">Insurance Purposes.</li>
-                        <li className="p-1">Value Appraisal</li>
-                        <li className="p-1">Legal Reasons.</li>
-                        <li className="p-1">3rd Party Opinion</li>
-                    </ul>
                 </Row>
 
-                <Row className="p-2 row-cols-1 row-cols-md-4 justify-content-center">
-                    {images.map((image) => (
-                        <Card>
-                            <Card.Img variant="top" src={image.url} />
-                            <Card.Title>{image.name}</Card.Title>
-                        </Card>
-                    ))}
-                </Row>
+                
             </Container>
         </>
     );

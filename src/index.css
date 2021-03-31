@@ -60,7 +60,7 @@ body{
   color: #00c6b3;
   transition: all 0.3s ease-in-out;
 }
-.Services:hover svg path {
+.Services:hover svg {
   fill: #00c6b3;
   transition: fill 0.3s ease-in-out;
 }

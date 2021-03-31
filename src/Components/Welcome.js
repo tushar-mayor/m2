@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Services from "./Services";
-
+import Brands from './Brands'
 export default function Welcome() {
   
   return (
@@ -68,8 +68,9 @@ export default function Welcome() {
         </Col>
       </Row>
       <br />
-      <br />
       <Services />
+      <br />
+      <Brands/>
     </>
   );
 }

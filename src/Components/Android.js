@@ -1,22 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
-
+import Brands from "./Brands";
 export default function Iphone() {
-    function importAll(r) {
-        let cardList = [];
-        cardList = r.keys().map((item) => {
-            const name = item.split(".")[1].replace("/", "");
-            const url = r(item).default;
-            return { name, url };
-        });
-        return cardList;
-    }
-
-    const images = importAll(
-        require.context("../Assests/Images/Apple", false, /\.(png|jpe?g|svg)$/)
-    );
+    
     return (
         <>
             <Helmet>
@@ -43,7 +31,7 @@ export default function Iphone() {
             </Row>
             <Container>
                 <Row className="p-3 text-muted">
-                    <h1 className="text-dark">Iphone Repair</h1>
+                    <h1 className="text-dark">Android Repair</h1>
                     <h3>
                         Except standard services we offer additional ones which
                         can be made urgently
@@ -93,8 +81,8 @@ export default function Iphone() {
                             Water Damage-
                         </span>
                         Water damaged motherboard, or display demands expert
-                        intervention! Get your  smartphone repaired at
-                        best market price with up to 6 months warranty.
+                        intervention! Get your smartphone repaired at best
+                        market price with up to 6 months warranty.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
@@ -121,14 +109,7 @@ export default function Iphone() {
                     </ul>
                 </Row>
 
-                <Row className="p-2 row-cols-1 row-cols-md-4 justify-content-center">
-                    {images.map((image) => (
-                        <Card>
-                            <Card.Img variant="top" src={image.url} />
-                            <Card.Title>{image.name}</Card.Title>
-                        </Card>
-                    ))}
-                </Row>
+                    <Brands/>
             </Container>
         </>
     );
