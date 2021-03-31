@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
+
+
 export default function SmartPhone() {
   return (
     <>
@@ -11,8 +13,7 @@ export default function SmartPhone() {
         <meta name="description" content="Helmet application" />
       </Helmet>
       <NavBar page="about " />
-      <div className="smartPhoneCover Cover" >
-        <Row className="text-light  font-weight-bold m-auto h-full ">
+        <Row className="text-light  font-weight-bold m-auto  bg-dark Cover smartPhoneCover" style={{height:"100%"}}>
           <Col
             lg={12}
             className="m-auto text-center"
@@ -28,7 +29,6 @@ export default function SmartPhone() {
             </div>
           </Col>
         </Row>
-      </div>
       <Container>
         <Row className=" p-3">
           <h1 className="">Smartphone Repair</h1>
@@ -68,6 +68,19 @@ export default function SmartPhone() {
             faults, do that you can have a qualified electronic engineer to back
             you up.
           </p>
+
+          <p className="text-muted">
+            <span className="text-dark font-weight-bold">
+          Screen Repacement-
+          </span>
+            Smartphone screens are brittle, and it's only a matter of time
+            before you need your screen fixed - Our technicians have expertly
+            repaired millions of screens over the years. There's literally not a
+            problem we haven't seen and solved. Our professionally trained
+            and vetted Technicians are experts and will meet you and provide
+            smartphone Repair- at your home, office or anywhere whichever is
+            convenient for you.
+        </p>
           <ul className="text-muted ">
             <span className="font-weight-bold">
               Engineering Reports can be used for:

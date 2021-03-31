@@ -4,31 +4,24 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Home from "./Home";
 import SmartPhone from "./SmartPhone";
-import Tablet from "./Tablet";
-import Laptop from "./Laptop";
-import Electronics from "./Electronics";
-import Console from "./Console";
-import Computer from "./Computer";
 import OurServices from "./OurServices";
-
+import Iphone from "./Iphone";
+import ScrollToTop from "./ScrollToTop";
 function App() {
-  return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <Switch>
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/About" component={About}></Route>
-        <Route path="/Contact" component={Contact}></Route>
-        <Route path="/SmartPhone" component={SmartPhone}></Route>
-        <Route path="/Tablet" component={Tablet}></Route>
-        <Route path="/Laptop" component={Laptop}></Route>
-        <Route path="/Electronics" component={Electronics}></Route>
-        <Route path="/Console" component={Console}></Route>
-        <Route path="/Computer" component={Computer}></Route>
-        <Route path="/Services" component={OurServices}></Route>
-      </Switch>
-      <Footer />
-    </Router>
-  );
+    return (
+        <Router basename={process.env.PUBLIC_URL}>
+        <ScrollToTop/>
+            <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/About" component={About} />
+                <Route path="/Contact" component={Contact} />
+                <Route path="/SmartPhone" component={SmartPhone} />
+                <Route path="/Iphone" component={Iphone} />
+                <Route path="/Services" component={OurServices} />
+            </Switch>
+            <Footer />
+        </Router>
+    );
 }
 
 export default App;

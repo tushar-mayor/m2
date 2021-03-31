@@ -11,7 +11,7 @@ export default function Welcome() {
           <Row >
             <Col lg={7} className="offset-lg-5">
               <h3>Welcome To</h3>
-              <h1 className="font-weight-bold">Brand Name</h1>
+              <h1 className="font-weight-bold text-capitalize">Phone Repair Plus And Vapes</h1>
               <h5 className="text-black-50">We Fix Everything!</h5>
               <p>
                 We can assure you that we have seen it all! From smartphones

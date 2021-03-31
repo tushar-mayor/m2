@@ -1,48 +1,76 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { ReactComponent as Logo } from "../logo.svg";
 
 export default function NavBar({ page }) {
-  return (
-    <>
-      <Navbar
-        variant="dark"
-        bg="dark"
-        className="d-flex justify-content-lg-between position-sticky"
-      >
-        <Logo
-          style={{ height: "4rem" }}
-          fill="#fff"
-        />
-        <Nav className="font-weight-bolder ">
-          <NavLink
-            to="/"
-            exact
-            className=" nav-link"
-            activeClassName="selected "
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/About"
-            className=" nav-link"
-            activeClassName="selected "
-          >
-            About
-          </NavLink>
-          <NavLink
-            to="/Services"
-            className=" nav-link"
-            activeClassName="selected "
-          >
-            Services
-          </NavLink>
-          <NavLink to="/Contact" className=" nav-link">
-            Contact
-          </NavLink>
-        </Nav>
-      </Navbar>
-    </>
-  );
+    return (
+        <>
+            <Navbar expand="md"   bg="dark" variant="dark">
+                <Navbar.Brand className="text-uppercase font-weight-bolder">Phone Repair plus and Vapes</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                        <Nav className="font-weight-bolder ">
+                            <NavLink
+                                to="/"
+                                exact
+                                className=" nav-link"
+                                activeClassName="selected "
+                            >
+                                Home
+                            </NavLink>
+                            <NavLink
+                                to="/About"
+                                className=" nav-link"
+                                activeClassName="selected "
+                            >
+                                About
+                            </NavLink>
+                            <NavLink
+                                to="/Services"
+                                className=" nav-link"
+                                activeClassName="selected "
+                            >
+                                Services
+                            </NavLink>
+                            <NavLink to="/Contact" className=" nav-link">
+                                Contact
+                            </NavLink>
+                        </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+            {/* <Nav.Item className="nav-link font-weight-bold text-light">
+                    <h5 style={{ width: "15ch" }}>
+                        
+                    </h5>
+                </Nav.Item>
+                <Nav className="font-weight-bolder ">
+                    <NavLink
+                        to="/"
+                        exact
+                        className=" nav-link"
+                        activeClassName="selected "
+                    >
+                        Home
+                    </NavLink>
+                    <NavLink
+                        to="/About"
+                        className=" nav-link"
+                        activeClassName="selected "
+                    >
+                        About
+                    </NavLink>
+                    <NavLink
+                        to="/Services"
+                        className=" nav-link"
+                        activeClassName="selected "
+                    >
+                        Services
+                    </NavLink>
+                    <NavLink to="/Contact" className=" nav-link">
+                        Contact
+                    </NavLink>
+                </Nav>
+            </Navbar> */}
+        </>
+    );
 }

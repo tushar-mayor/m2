@@ -3,16 +3,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
-export default function Tablet() {
+export default function Iphone() {
   return (
     <>
       <Helmet>
-        <title>Tablet</title>
+        <title>Iphone</title>
         <meta name="description" content="Helmet application" />
       </Helmet>
       <NavBar page="about " />
-      <div className="TabletCover Cover ">
-        <Row className="text-light  font-weight-bold m-auto h-full ">
+        <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
           <Col
             lg={12}
             className="m-auto text-center"
@@ -28,10 +27,9 @@ export default function Tablet() {
             </div>
           </Col>
         </Row>
-      </div>
       <Container>
         <Row className="p-3">
-          <h1 className="">Tablet Repair</h1>
+          <h1 className="">Iphone Repair</h1>
           <h3>
             Except standard services we offer additional ones which can be made
             urgently
