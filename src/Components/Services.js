@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import {ReactComponent as SmartPhoneSvg} from '../Smartphone.svg'
 import {ReactComponent as Iphone} from '../Apple.svg'
-import {ReactComponent as Android} from '../Android.svg'
 import {ReactComponent as Vape} from '../Vape.svg'
 export default function Services() {
     return (

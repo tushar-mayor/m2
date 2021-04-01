@@ -64,11 +64,6 @@ body{
   fill: #00c6b3;
   transition: fill 0.3s ease-in-out;
 }
-.selected {
-  text-decoration: underline;
-  color: #fff !important;
-}
-
 .HomeCover {
   background-image: url("./Assests/Images/bg.jpg");
   /* background-size: 100% 100%; */

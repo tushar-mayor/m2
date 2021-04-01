@@ -1,16 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
-import { Helmet } from "react-helmet";
+
 import ContactForm from "./ContactForm";
-import NavBar from "./NavBar";
+
 export default function Contact() {
+    useEffect(() => {
+        document.title = "Contact";
+    }, []);
     return (
         <>
-            <Helmet>
-                <title>Contact</title>
-                <meta name="description" content="Helmet application" />
-            </Helmet>
-            <NavBar page="about " />
             <Row className="m-0 p-2  justify-content-between">
                 <Col lg={4} sm={12} className="m-auto ">
                     <h1>Contact</h1>
@@ -26,7 +24,7 @@ export default function Contact() {
                     </h5>
                 </Col>
                 <Col lg={7} sm={12}>
-                    <ContactForm/>
+                    <ContactForm />
                 </Col>
             </Row>
             <br />

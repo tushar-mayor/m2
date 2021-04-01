@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { Helmet } from "react-helmet";
-import NavBar from "./NavBar";
+
+import { Link } from "react-router-dom";
 
 export default function Iphone() {
     function importAll(r) {
@@ -17,13 +17,12 @@ export default function Iphone() {
     const images = importAll(
         require.context("../Assests/Images/Apple", false, /\.(png|jpe?g|svg)$/)
     );
+
+    useEffect(() => {
+        document.title = "Iphone";
+    }, []);
     return (
         <>
-            <Helmet>
-                <title>Iphone</title>
-                <meta name="description" content="Helmet application" />
-            </Helmet>
-            <NavBar page="about " />
             <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
                 <Col lg={12} className="m-auto text-center text-dark">
                     <div>
@@ -93,8 +92,8 @@ export default function Iphone() {
                             Water Damage-
                         </span>
                         Water damaged motherboard, or display demands expert
-                        intervention! Get your  smartphone repaired at
-                        best market price with up to 6 months warranty.
+                        intervention! Get your smartphone repaired at best
+                        market price with up to 6 months warranty.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
@@ -123,10 +122,17 @@ export default function Iphone() {
 
                 <Row className="p-2 row-cols-1 row-cols-md-4 justify-content-center">
                     {images.map((image) => (
-                        <Card>
-                            <Card.Img variant="top" src={image.url} />
-                            <Card.Title>{image.name}</Card.Title>
-                        </Card>
+                        <Link
+                            className="text-decoration-none text-dark text-center"
+                            query={{ the: image }}
+                            to={`/Phone/${image.name}`}
+                            key={image.name}
+                        >
+                            <Card>
+                                <Card.Img variant="top" src={image.url} />
+                                <Card.Title>{image.name}</Card.Title>
+                            </Card>
+                        </Link>
                     ))}
                 </Row>
             </Container>

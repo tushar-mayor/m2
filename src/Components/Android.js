@@ -1,17 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Helmet } from "react-helmet";
-import NavBar from "./NavBar";
+
 import Brands from "./Brands";
-export default function Iphone() {
-    
+export default function Android() {
+    useEffect(() => {
+        document.title = "Android";
+    }, []);
     return (
         <>
-            <Helmet>
-                <title>Iphone</title>
-                <meta name="description" content="Helmet application" />
-            </Helmet>
-            <NavBar page="about " />
             <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
                 <Col lg={12} className="m-auto text-center text-dark">
                     <div>
@@ -109,7 +105,7 @@ export default function Iphone() {
                     </ul>
                 </Row>
 
-                    <Brands/>
+                <Brands />
             </Container>
         </>
     );

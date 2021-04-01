@@ -31,7 +31,6 @@ export default function ContactForm() {
     return (
         <>
          <Form onSubmit={(e)=>submitHandler(e)} className=" p-5 h-100">
-                        <h2 className="text-center">Queries</h2>
                         <Form.Group controlId="formBasicPassword">
                             <Form.Label>Name</Form.Label>
                             <Form.Control

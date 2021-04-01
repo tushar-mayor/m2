@@ -1,16 +1,12 @@
-import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
-import { Helmet } from "react-helmet";
-import NavBar from "./NavBar";
+import React, { useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Vape() {
+    useEffect(() => {
+        document.title = "Vapes";
+    }, []);
     return (
         <>
-            <Helmet>
-                <title>Vape Services</title>
-                <meta name="description" content="Helmet application" />
-            </Helmet>
-            <NavBar page="about " />
             <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
                 <Col lg={12} className="m-auto text-center text-dark">
                     <div>
@@ -35,15 +31,9 @@ export default function Vape() {
                         <span className="text-dark font-weight-bold">
                             Sale –
                         </span>
-                        Need important data that you’re afraid of losing? We
-                        provide both data back up and data recovery services, so
-                        whether your hard drive is functioning or not, we can
-                        retrieve important documents, photos, videos, or
-                        anything else you may need. We can perform data back-up
-                        and recovery on a range of memory types; from external
-                        and internal hard drives, to Micro SD cards for phones,
-                        memory cards for cameras, and even the newest SSD
-                        drives.
+                        From simple Vape Pen Devices and Pod Kits to more
+                        advanced Box Mod kits and everything in between! No
+                        matter your vape knowledge we have a kit for you.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
@@ -93,8 +83,6 @@ export default function Vape() {
                         engineer to back you up.
                     </p>
                 </Row>
-
-                
             </Container>
         </>
     );

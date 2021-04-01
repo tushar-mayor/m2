@@ -8,10 +8,13 @@ import Vape from "./Vape";
 import OurServices from "./OurServices";
 import Iphone from "./Iphone";
 import ScrollToTop from "./ScrollToTop";
+import ItemScreen from "./ItemScreen";
+import NavBar from "./NavBar";
 function App() {
     return (
         <Router basename={process.env.PUBLIC_URL}>
-        <ScrollToTop/>
+            <ScrollToTop />
+            <NavBar />
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/About" component={About} />
@@ -20,6 +23,7 @@ function App() {
                 <Route path="/Iphone" component={Iphone} />
                 <Route path="/Vape" component={Vape} />
                 <Route path="/Services" component={OurServices} />
+                <Route path="/Phone/:model" component={ItemScreen} />
             </Switch>
             <Footer />
         </Router>
