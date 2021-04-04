@@ -39,14 +39,11 @@ export default function Vape() {
                         <span className="text-dark font-weight-bold">
                             Battery Replacement –
                         </span>
-                        If you recently changed networks and don’t want to pay
-                        for a new phone, why not have the phone network
-                        unlocked? This involves opening a phone, so that it can
-                        be used on all networks, making switching providers both
-                        quick and painless. Prices for unlock start at $10, and
-                        most models can be unlocked in a couple of hours. Use
-                        our free quick estimate section to find out more about
-                        getting your phone unlocked.
+                        f you’re looking for new vape batteries, you’ve come to
+                        the right place. we offer only the best, longest lasting
+                        and most reliable vape batteries on the market. However,
+                        vaporizer batteries aren’t universal and while most use
+                        a 18650 battery, some may take other sizes.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">
@@ -81,6 +78,44 @@ export default function Vape() {
                         prepare an engineering report on the exact fault, or
                         faults, do that you can have a qualified electronic
                         engineer to back you up.
+                    </p>
+                    <p>
+                        <span className="text-dark font-weight-bold">
+                            vape coil replacements –
+                        </span>
+                        With a wide selection of brands, we offer many different
+                        coil types with a range of resistance options to provide
+                        you with the perfect vaping experience. If you are
+                        seeking the best vape coils and coil replacement
+                        options, look no further, we only select the highest
+                        quality and most reliable coils for our inventory,
+                        ensuring that whatever option you pick, you can be
+                        guaranteed an enjoyable vape.
+                    </p>
+                    <p>
+                        <span className="text-dark font-weight-bold">
+                            Drip Tips –
+                        </span>
+                        Are you interested in drip vaping? Already into
+                        dripping? Our variety of drip tips will suit all levels
+                        of drip vaping. Whether you’re a newcomer to dripping or
+                        a seasoned vet, you can find a drip tip on our online
+                        store that fits your needs. Not only this, there’s a
+                        variety of styles, meaning you can buy the perfect tip
+                        to match your new mod.
+                    </p>
+                    <p>
+                        <span className="text-dark font-weight-bold">
+                            Wire & Cotton –
+                        </span>
+                        Customizing your vape experience is almost as much fun
+                        as vaping itself. Take your vaping experience to the
+                        next level with the best wicks, wick alternatives,
+                        coils, coil wrappers, and more. Want to prevent dry
+                        hits? Pick out one or two new wicks! The sky's the limit
+                        when it comes to customizing your vaping experience. Our
+                        online store has the best vape wire accessories money
+                        can buy!
                     </p>
                 </Row>
             </Container>
