@@ -1,10 +1,9 @@
 import React from "react";
-import { Card, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function BrandModels(props) {
     const { Brand } = props.match.params;
-
 
     function importAll(r) {
         let cardList = [];
@@ -27,16 +26,18 @@ export default function BrandModels(props) {
     const links = (image) => {
         const { name, url } = image;
         return (
-            <Link
-                className="text-decoration-none text-dark text-center"
-                to={`/Phone/${name}`}
-                key={name}
-            >
-                <Card>
-                    <Card.Img variant="top" src={url} />
-                    <Card.Title>{name}</Card.Title>
-                </Card>
-            </Link>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/${name}`}
+                    key={name}
+                >
+                    <Card>
+                        <Card.Img variant="top" src={url} />
+                        <Card.Title>{name}</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
         );
     };
 
@@ -50,8 +51,11 @@ export default function BrandModels(props) {
 
     return (
         <Container className="p-5">
-        <h1>{Brand} Models</h1>
-            <Row className="row-cols-md-4">{cards.map((card) => card)}</Row>;
+            <h1>{Brand} Models</h1>
+            <Row className="row-cols-md-4" style={{gap:"2rem 0"}}>
+                {cards.map((card) => card)}
+            </Row>
+            ;
         </Container>
     );
 }

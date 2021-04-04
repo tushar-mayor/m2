@@ -4,11 +4,13 @@ import { NavLink } from "react-router-dom";
 import { ReactComponent as SmartPhoneSvg } from "../Smartphone.svg";
 import { ReactComponent as Iphone } from "../Apple.svg";
 import { ReactComponent as Vape } from "../Vape.svg";
+import RubberBand from 'react-reveal/RubberBand';
 export default function Services() {
   return (
     <Container fluid className="my-3 py-3">
       <Row className="row-cols-md-3 row-cols-1 justify-content-around m-0">
         <Col>
+        <RubberBand>
           <NavLink to="/Android" className=" text-decoration-none text-dark">
             <Row className="Services">
               <Col className="bg-light ">
@@ -23,6 +25,7 @@ export default function Services() {
               </Col>
             </Row>
           </NavLink>
+        </RubberBand>
         </Col>
         <Col>
           <NavLink to="/Iphone" className=" text-decoration-none text-dark">

@@ -39,7 +39,7 @@ export default function ItemScreen(props) {
               >
                 <Col
                   sm={12}
-                  className=" h-100 d-flex align-items-center text-center border shadow "
+                  className=" h-100 d-flex align-items-center text-center justify-content-center border shadow "
                 >
                   {service}
                 </Col>
