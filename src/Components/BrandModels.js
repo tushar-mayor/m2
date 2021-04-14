@@ -15,12 +15,18 @@ export default function BrandModels(props) {
         return cardList;
     }
 
-    const Apple = importAll(
-        require.context("../Assests/Images/Apple", false, /\.(png|jpe?g|svg)$/)
-    );
     const Nokia = importAll(
         require.context("../Assests/Images/Nokia", false, /\.(png|jpe?g|svg)$/)
     );
+    const Asus = importAll(
+        require.context(
+            "../Assests/Images/Asus",
+            false,
+            /\.(png|jpe?g|svg|webp)$/
+        )
+    );
+    console.log(Asus);
+
     let cards = [];
 
     const links = (image) => {
@@ -32,8 +38,12 @@ export default function BrandModels(props) {
                     to={`/Phone/${name}`}
                     key={name}
                 >
-                    <Card>
-                        <Card.Img variant="top" src={url} />
+                    <Card style={{ minHeight: "20rem" }}>
+                        <Card.Img
+                            variant="top"
+                            src={url}
+                            style={{ maxHeight: "40vh", minHeight: "200px" }}
+                        />
                         <Card.Title>{name}</Card.Title>
                     </Card>
                 </Link>
@@ -42,8 +52,8 @@ export default function BrandModels(props) {
     };
 
     switch (Brand) {
-        case "asus":
-            cards = Apple.map((image) => links(image));
+        case "Asus":
+            cards = Asus.map((image) => links(image));
             break;
         default:
             cards = Nokia.map((image) => links(image));
@@ -52,7 +62,7 @@ export default function BrandModels(props) {
     return (
         <Container className="p-5">
             <h1>{Brand} Models</h1>
-            <Row className="row-cols-md-4" style={{gap:"2rem 0"}}>
+            <Row className="row-cols-md-4 " style={{ gap: "2rem 0" }}>
                 {cards.map((card) => card)}
             </Row>
             ;
