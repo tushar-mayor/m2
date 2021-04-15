@@ -118,7 +118,8 @@ body {
     background-size: cover;
 }
 .ServiceCover::before {
-    filter: blur(8px);
+    transform: scaleX(-1);
+    filter:grayscale(.3) blur(10px);
 }
 /* Medium devices (mobiles, 768px and below) */
 

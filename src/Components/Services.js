@@ -39,7 +39,7 @@ export default function Services() {
                 </Col>
                 <Col>
                     <Col>
-                        <Slide bottom fraction={0.1}>
+                        <Slide right fraction={0.1}>
                             <NavLink
                                 to="/Iphone"
                                 className=" text-decoration-none text-dark"
@@ -63,7 +63,7 @@ export default function Services() {
                 </Col>
                 <Col>
                     <Col>
-                        <Slide right fraction={0.1}>
+                        <Slide left fraction={0.1}>
                             <NavLink
                                 to="/Vape"
                                 className=" text-decoration-none text-dark"
@@ -87,7 +87,7 @@ export default function Services() {
                 </Col>
                 <Col>
                     <Col>
-                        <Slide Bottom fraction={0.1}>
+                        <Slide right fraction={0.1}>
                             <NavLink
                                 to="/Ipad"
                                 className=" text-decoration-none text-dark"

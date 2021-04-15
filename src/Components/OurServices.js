@@ -24,13 +24,13 @@ export default function OurServices() {
                 <Col
                     sm={12}
                     lg={6}
-                    className="offset-lg-6  my-auto"
+                    className="offset-lg-6 my-auto"
                     style={{ fontSize: "1.1rem" }}
                 >
-                    <div className="m-auto font-weight-bolder">
-                        <h1>OUR SERVICES</h1>
+                    <div className="m-auto " >
+                        <h1 style={{fontWeight:"bolder"}}>OUR SERVICES</h1>
                         <br />
-                        <p>
+                        <p style={{fontWeight:"bolder"}}>
                             We can assure you that we have seen it all! From
                             smartphones that have been run over by a car, to
                             cellphones that have taken a dive in a pool, we are
@@ -41,7 +41,7 @@ export default function OurServices() {
                             technology too complicated.
                         </p>
                         <br />
-                        <p>
+                        <p style={{fontWeight:"bolder"}}>
                             We love people and cell phones. So, you always get
                             the best service and the best price. We are locally
                             owned and operated with master level techs at each
