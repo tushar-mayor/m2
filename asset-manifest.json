@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/m2/static/css/main.a9d37afe.chunk.css",
-    "main.js": "/m2/static/js/main.7f4600fc.chunk.js",
-    "main.js.map": "/m2/static/js/main.7f4600fc.chunk.js.map",
+    "main.css": "/m2/static/css/main.445566ab.chunk.css",
+    "main.js": "/m2/static/js/main.4ea6bbef.chunk.js",
+    "main.js.map": "/m2/static/js/main.4ea6bbef.chunk.js.map",
     "runtime-main.js": "/m2/static/js/runtime-main.657fbfce.js",
     "runtime-main.js.map": "/m2/static/js/runtime-main.657fbfce.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/m2/static/css/2.4c97ca4f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.77669482.chunk.js.map": "/m2/static/js/3.77669482.chunk.js.map",
     "index.html": "/m2/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/m2/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.a9d37afe.chunk.css.map": "/m2/static/css/main.a9d37afe.chunk.css.map",
+    "static/css/main.445566ab.chunk.css.map": "/m2/static/css/main.445566ab.chunk.css.map",
     "static/js/2.71050bce.chunk.js.LICENSE.txt": "/m2/static/js/2.71050bce.chunk.js.LICENSE.txt",
     "static/media/Android.ddcb6be5.svg": "/m2/static/media/Android.ddcb6be5.svg",
     "static/media/Apple iPad 10.2 (2019).jpg": "/m2/static/media/Apple iPad 10.2 (2019).07f21de4.jpg",
@@ -180,7 +180,7 @@
     "static/js/runtime-main.657fbfce.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.71050bce.chunk.js",
-    "static/css/main.a9d37afe.chunk.css",
-    "static/js/main.7f4600fc.chunk.js"
+    "static/css/main.445566ab.chunk.css",
+    "static/js/main.4ea6bbef.chunk.js"
   ]
 }
