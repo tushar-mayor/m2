@@ -16,7 +16,7 @@ export default function About() {
                         </h1>
                         <p className="lead">
                             Here, at Phone Repair Plus and Vapes, we provide
-                            repair solutions to customers that are looking for
+                            repair solutions to customers that are looking f~or
                             high quality services with competitive prices. We
                             have highly qualified repair technicians and
                             engineers that are here to provide help to anyone

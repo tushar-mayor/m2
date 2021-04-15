@@ -6,11 +6,13 @@ export default function Welcome() {
     return (
         <>
             <Row className="p-3 mx-0 ">
+                <Services />
+
                 <Col lg={6} md={12} className=" p-3">
                     <Row>
                         <Col lg={7} className="offset-lg-5">
                             <Slide left fraction={1}>
-                                <h3>Welcome To</h3>
+                                <h3> Welcome To</h3>
                                 <h1
                                     className="font-weight-bold "
                                     style={{ fontSize: "2.4rem" }}
@@ -87,7 +89,6 @@ export default function Welcome() {
             </Row>
             <br />
 
-            <Services />
             <br />
         </>
     );

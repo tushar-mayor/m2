@@ -8,7 +8,7 @@ export default function OurServices() {
         document.title = "Services";
     }, []);
     return (
-        <Fade bottom duration={2000} >
+        <Fade bottom duration={2000}>
             <Row
                 className="container-fluid py-3 text-center  justify-content-center text-capitalize"
                 style={{ fontSize: "3rem" }}
@@ -27,7 +27,7 @@ export default function OurServices() {
                     className="offset-lg-6  my-auto"
                     style={{ fontSize: "1.1rem" }}
                 >
-                    <div className="m-auto ">
+                    <div className="m-auto font-weight-bolder">
                         <h1>OUR SERVICES</h1>
                         <br />
                         <p>

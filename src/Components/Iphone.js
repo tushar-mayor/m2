@@ -1,32 +1,18 @@
 import React, { useEffect } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
-
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import IPhoneModels from "./IPhoneModels";
 
 export default function Iphone() {
-    function importAll(r) {
-        let cardList = [];
-        cardList = r.keys().map((item) => {
-            const name = item.split(".")[1].replace("/", "");
-            const url = r(item).default;
-            return { name, url };
-        });
-        return cardList;
-    }
-
-    const images = importAll(
-        require.context("../Assests/Images/Apple", false, /\.(png|jpe?g|svg)$/)
-    );
     useEffect(() => {
         document.title = "Iphone";
     }, []);
     return (
         <>
-            <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
-                <Col lg={12} className="m-auto text-center text-dark">
+            <Row className="  text-light  font-weight-bold m-auto TabletCover Cover ">
+                <Col lg={12} className="m-auto text-center  ">
                     <div>
-                        <div className="row1">Service as a Service</div>
-                        <div>
+                        <div className="row1 ">Service as a Service</div>
+                        <div >
                             We provide quick service process at our mobile
                             Store. Our service included touch screen
                             repair/replacement, liquid and water damage repair,
@@ -39,9 +25,18 @@ export default function Iphone() {
                     </div>
                 </Col>
             </Row>
-            <Container>
+
+            <Container className="mt-4 ">
+                <h1 className="text-dark text-uppercase">Iphone Repair</h1>
+            </Container>
+            <Row
+                className=" row-cols-1 row-cols-md-4 justify-content-center p-4 "
+                style={{ gap: "20px 0" }}
+            >
+                <IPhoneModels />
+            </Row>
+            <Container className="mb-5">
                 <Row className="p-3 text-muted">
-                    <h1 className="text-dark">Iphone Repair</h1>
                     <h3>
                         Except standard services we offer additional ones which
                         can be made urgently
@@ -117,28 +112,6 @@ export default function Iphone() {
                         <li className="p-1">Legal Reasons.</li>
                         <li className="p-1">3rd Party Opinion</li>
                     </ul>
-                </Row>
-
-                <Row className="p-2 row-cols-1 row-cols-md-4 justify-content-center" style={{gap:"20px 0"}}>
-                    {images.map((image) => (
-                        <Col>
-                            <Link
-                                className="text-decoration-none text-dark text-center"
-                                query={{ the: image }}
-                                to={`/Phone/${image.name}`}
-                                key={image.name}
-                            >
-                                <Card>
-                                    <Card.Img
-                                        variant="top"
-                                        src={image.url}
-                                        style={{ maxHeight: "40vh",minHeight:"200px" }}
-                                    />
-                                    <Card.Title>{image.name}</Card.Title>
-                                </Card>
-                            </Link>
-                        </Col>
-                    ))}
                 </Row>
             </Container>
         </>

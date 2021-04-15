@@ -6,10 +6,8 @@ export default function NavBar() {
     return (
         <>
             <Navbar expand="md" bg="dark" variant="dark">
-                <Navbar.Brand className="text-uppercase font-weight-bolder">
-                    <Zoom left cascade duration={2000}>
+                <Navbar.Brand className="text-uppercase font-weight-bold" style={{fontSize:"1rem"}}>
                     Phone Repair plus and Vapes
-                    </Zoom>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav bg-success" />
                 <Navbar.Collapse
@@ -27,7 +25,7 @@ export default function NavBar() {
                                 color: "#fff",
                             }}
                         >
-                            <Zoom right cascade duration={2000}>
+                            <Zoom right cascade duration={1000}>
                             Home
                             </Zoom>
                         </NavLink>
@@ -39,7 +37,7 @@ export default function NavBar() {
                                 color: "#fff",
                             }}
                         >
-                            <Zoom right cascade duration={2000}>
+                            <Zoom right cascade duration={1000}>
                             About
                             </Zoom>
                         </NavLink>
@@ -51,7 +49,7 @@ export default function NavBar() {
                                 color: "#fff",
                             }}
                         >
-                            <Zoom right cascade duration={2000}>
+                            <Zoom right cascade duration={1000}>
                             Services
                             </Zoom>
                         </NavLink>
@@ -63,7 +61,7 @@ export default function NavBar() {
                                 color: "#fff",
                             }}
                         >
-                            <Zoom right cascade duration={2000}>
+                            <Zoom right cascade duration={1000}>
                             Contact
                             </Zoom>
                         </NavLink>

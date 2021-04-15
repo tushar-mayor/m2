@@ -17,8 +17,8 @@ export default function Home() {
                                 className="row1  text-center m-auto "
                                 style={{ maxWidth: "14ch" }}
                             >
-                                <div className="welcomeTxt">
-                                    <Fade top duration={1000} delay={2000}>
+                                <div className="welcomeTxt" >
+                                    <Fade top duration={1000} delay={1000}>
                                         We take care of Your Phone!
                                     </Fade>
                                 </div>
@@ -27,8 +27,8 @@ export default function Home() {
                     </Row>
                 </div>
             </Fade>
-            <br />
             <Welcome />
+            <br />
         </>
     );
 }
