@@ -1,10 +1,10 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Iphone8 from "../Assests/Images/Apple/iPhone 8.jpg";
+// import Iphone8 from "../Assests/Images/Apple/iPhone 8.jpg";
 import IphoneXR from "../Assests/Images/Apple/iPhone XR.jpg";
-import IphoneXS from "../Assests/Images/Apple/iPhone XS.jpg";
-import IphoneXSMax from "../Assests/Images/Apple/iPhone XS Max.jpg";
+import IphoneXS from "../Assests/Images/Apple/iPhone XS.webp";
+import IphoneXSMax from "../Assests/Images/Apple/iPhone XS Max.webp";
 import Iphone11 from "../Assests/Images/Apple/iPhone 11.jpg";
 import Iphone11Pro from "../Assests/Images/Apple/iPhone 11 Pro.jpg";
 import Iphone11ProMax from "../Assests/Images/Apple/iPhone 11 Pro Max.jpg";
@@ -16,21 +16,6 @@ import IphoneSE from "../Assests/Images/Apple/iPhone SE 2020.jpg";
 export default function IPhoneModels() {
     return (
         <>
-            <Col>
-                <Link
-                    className="text-decoration-none text-dark text-center"
-                    to={`/Phone/Iphone 8`}
-                >
-                    <Card>
-                        <Card.Img
-                            variant="top"
-                            src={Iphone8}
-                            style={{ maxHeight: "40vh", minHeight: "200px" }}
-                        />
-                        <Card.Title>Iphone 8</Card.Title>
-                    </Card>
-                </Link>
-            </Col>
             <Col>
                 <Link
                     className="text-decoration-none text-dark text-center"

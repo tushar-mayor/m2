@@ -71,6 +71,28 @@ export default function BrandModels(props) {
             /\.(png|jpe?g|svg|webp)$/
         )
     );
+    const SonyErricson = importAll(
+        require.context(
+            "../Assests/Images/SonyErricson",
+            false,
+            /\.(png|jpe?g|svg|webp)$/
+        )
+    );
+
+    const Sony = importAll(
+        require.context(
+            "../Assests/Images/Sony",
+            false,
+            /\.(png|jpe?g|svg|webp)$/
+        )
+    );
+    const OnePlus = importAll(
+        require.context(
+            "../Assests/Images/OnePlus",
+            false,
+            /\.(png|jpe?g|svg|webp)$/
+        )
+    );
 
     let cards = [];
 
@@ -85,6 +107,7 @@ export default function BrandModels(props) {
                 >
                     <Card style={{ minHeight: "20rem" }}>
                         <Card.Img
+                            variant="top"
                             src={url}
                             style={{
                                 maxHeight: "40vh",
@@ -120,6 +143,15 @@ export default function BrandModels(props) {
             break;
         case "Samsung":
             cards = Samsung.map((image) => links(image));
+            break;
+        case "SonyErricson":
+            cards = SonyErricson.map((image) => links(image));
+            break;
+        case "Sony":
+            cards = Sony.map((image) => links(image));
+            break;
+        case "OnePlus":
+            cards = OnePlus.map((image) => links(image));
             break;
         default:
             cards = Nokia.map((image) => links(image));

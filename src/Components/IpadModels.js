@@ -19,7 +19,6 @@ export default function IPhoneModels() {
             /\.(png|jpe?g|svg|webp)$/
         )
     );
-    console.log(Ipad);
     const links = (image) => {
         const { name, url } = image;
         return (

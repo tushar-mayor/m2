@@ -46,8 +46,16 @@ export default function ItemScreen(props) {
                         ))}
                     </Row>
                     <Row className="my-3">
-                            <Button variant="dark mx-5" >Call Us</Button>
-                            <Button variant="dark">Call Us</Button>
+                        <Button
+                            variant="dark mx-5"
+                            href="mailto:email@email.de"
+                        >
+                            Email Us
+                        </Button>
+                        <Button variant="dark" href="tel:078483-72777">
+                            {" "}
+                            Call Us
+                        </Button>
                     </Row>
                 </Col>
                 <Col md={4}>

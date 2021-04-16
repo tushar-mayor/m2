@@ -65,30 +65,6 @@ export default function Services() {
                     <Col>
                         <Slide left fraction={0.1}>
                             <NavLink
-                                to="/Vape"
-                                className=" text-decoration-none text-dark"
-                            >
-                                <Row className="Services">
-                                    <Col className="bg-light ">
-                                        <Vape />
-                                    </Col>
-                                    <Col lg={8}>
-                                        <h4>Vape Services</h4>
-                                        <p className="text-muted">
-                                            We fix all smartphone models, make a
-                                            diagnostic and replace all
-                                            non-working parts at record terms.
-                                        </p>
-                                    </Col>
-                                </Row>
-                            </NavLink>
-                        </Slide>
-                    </Col>
-                </Col>
-                <Col>
-                    <Col>
-                        <Slide right fraction={0.1}>
-                            <NavLink
                                 to="/Ipad"
                                 className=" text-decoration-none text-dark"
                             >
@@ -109,6 +85,31 @@ export default function Services() {
                         </Slide>
                     </Col>
                 </Col>
+                <Col>
+                    <Col>
+                        <Slide right fraction={0.1}>
+                            <NavLink
+                                to="/Vape"
+                                className=" text-decoration-none text-dark"
+                            >
+                                <Row className="Services">
+                                    <Col className="bg-light ">
+                                        <Vape />
+                                    </Col>
+                                    <Col lg={8}>
+                                        <h4>Vape Services</h4>
+                                        <p className="text-muted">
+                                            We fix all smartphone models, make a
+                                            diagnostic and replace all
+                                            non-working parts at record terms.
+                                        </p>
+                                    </Col>
+                                </Row>
+                            </NavLink>
+                        </Slide>
+                    </Col>
+                </Col>
+                
             </Row>
         </Container>
     );
