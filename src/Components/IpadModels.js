@@ -29,13 +29,16 @@ export default function IPhoneModels() {
                     key={name}
                 >
                     <Card style={{ minHeight: "20rem" }}>
-                        <Card.Img
+                    <Card.Img
+                            variant="top"
                             src={url}
                             style={{
                                 maxHeight: "40vh",
-                                minHeight: "200px",
-                                padding: "3rem",
+                                minHeight: "10rem",
+                                padding: "2rem",
+                                objectFit: "fill",
                             }}
+                            height="80%"
                         />
                         <Card.Title>{name}</Card.Title>
                     </Card>

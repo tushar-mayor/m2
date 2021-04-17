@@ -105,15 +105,17 @@ export default function BrandModels(props) {
                     to={`/Phone/${name}`}
                     key={name}
                 >
-                    <Card style={{ minHeight: "20rem" }}>
+                    <Card className="h-100" style={{ minHeight: "20rem" }}>
                         <Card.Img
                             variant="top"
                             src={url}
                             style={{
                                 maxHeight: "40vh",
-                                minHeight: "200px",
-                                padding: "1rem",
+                                minHeight: "10rem",
+                                padding: "2rem",
+                                objectFit: "fill",
                             }}
+                            height="80%"
                         />
                         <Card.Title>{name}</Card.Title>
                     </Card>
