@@ -12,7 +12,7 @@ export default function Iphone() {
                 <Col lg={12} className="m-auto text-center  ">
                     <div>
                         <div className="row1 ">Service as a Service</div>
-                        <div >
+                        <div>
                             We provide quick service process at our mobile
                             Store. Our service included touch screen
                             repair/replacement, liquid and water damage repair,
@@ -31,7 +31,7 @@ export default function Iphone() {
             </Container>
             <Row
                 className=" row-cols-1 row-cols-md-4 justify-content-center p-4 "
-                style={{ gap: "20px 0" }}
+                style={{ gridGap: "20px 0" }}
             >
                 <IPhoneModels />
             </Row>
@@ -41,20 +41,6 @@ export default function Iphone() {
                         Except standard services we offer additional ones which
                         can be made urgently
                     </h3>
-                    <p>
-                        <span className="text-dark font-weight-bold">
-                            Data Recovery –
-                        </span>
-                        Need important data that you’re afraid of losing? We
-                        provide both data back up and data recovery services, so
-                        whether your hard drive is functioning or not, we can
-                        retrieve important documents, photos, videos, or
-                        anything else you may need. We can perform data back-up
-                        and recovery on a range of memory types; from external
-                        and internal hard drives, to Micro SD cards for phones,
-                        memory cards for cameras, and even the newest SSD
-                        drives.
-                    </p>
                     <p>
                         <span className="text-dark font-weight-bold">
                             Unlock –
@@ -80,14 +66,6 @@ export default function Iphone() {
                         vetted Technicians are experts and will meet you and
                         provide smartphone Repair- at your home, office or
                         anywhere whichever is convenient for you.{" "}
-                    </p>
-                    <p>
-                        <span className="text-dark font-weight-bold">
-                            Water Damage-
-                        </span>
-                        Water damaged motherboard, or display demands expert
-                        intervention! Get your smartphone repaired at best
-                        market price with up to 6 months warranty.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">

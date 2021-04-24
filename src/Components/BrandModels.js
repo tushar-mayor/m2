@@ -22,27 +22,6 @@ export default function BrandModels(props) {
             /\.(png|jpe?g|svg|webp)$/
         )
     );
-    const Asus = importAll(
-        require.context(
-            "../Assests/Images/Asus",
-            false,
-            /\.(png|jpe?g|svg|webp)$/
-        )
-    );
-    const BlackBerry = importAll(
-        require.context(
-            "../Assests/Images/Blackberry",
-            false,
-            /\.(png|jpe?g|svg|webp)$/
-        )
-    );
-    const HTC = importAll(
-        require.context(
-            "../Assests/Images/HTC",
-            false,
-            /\.(png|jpe?g|svg|webp)$/
-        )
-    );
     const Huawei = importAll(
         require.context(
             "../Assests/Images/Huawei",
@@ -71,14 +50,6 @@ export default function BrandModels(props) {
             /\.(png|jpe?g|svg|webp)$/
         )
     );
-    const SonyErricson = importAll(
-        require.context(
-            "../Assests/Images/SonyErricson",
-            false,
-            /\.(png|jpe?g|svg|webp)$/
-        )
-    );
-
     const Sony = importAll(
         require.context(
             "../Assests/Images/Sony",
@@ -125,15 +96,6 @@ export default function BrandModels(props) {
     };
 
     switch (Brand) {
-        case "Asus":
-            cards = Asus.map((image) => links(image));
-            break;
-        case "Blackberry":
-            cards = BlackBerry.map((image) => links(image));
-            break;
-        case "HTC":
-            cards = HTC.map((image) => links(image));
-            break;
         case "Huawei":
             cards = Huawei.map((image) => links(image));
             break;
@@ -145,9 +107,6 @@ export default function BrandModels(props) {
             break;
         case "Samsung":
             cards = Samsung.map((image) => links(image));
-            break;
-        case "SonyErricson":
-            cards = SonyErricson.map((image) => links(image));
             break;
         case "Sony":
             cards = Sony.map((image) => links(image));

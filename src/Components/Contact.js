@@ -20,7 +20,7 @@ export default function Contact() {
                             Address:{" "}
                             <span className="text-capitalize">
                                 {" "}
-                                31 henley street,stratford-upon-avon,CV31 6QW
+                                31 henley street,Stratford-upon-avon,CV31 6QW
                             </span>
                         </h5>
                     </Slide>

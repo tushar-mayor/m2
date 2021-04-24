@@ -1,7 +1,10 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import Iphone8 from "../Assests/Images/Apple/iPhone 8.jpg";
+import iPhone7Plus from "../Assests/Images/Apple/iPhone 7 plus.jpg";
+import iPhone8 from "../Assests/Images/Apple/iPhone 8.webp";
+import iPhone8Plus from "../Assests/Images/Apple/iPhone 8+.webp";
+import IphoneX from "../Assests/Images/Apple/iPhone X.webp";
 import IphoneXR from "../Assests/Images/Apple/iPhone XR.jpg";
 import IphoneXS from "../Assests/Images/Apple/iPhone XS.webp";
 import IphoneXSMax from "../Assests/Images/Apple/iPhone XS Max.webp";
@@ -16,6 +19,66 @@ import IphoneSE from "../Assests/Images/Apple/iPhone SE 2020.jpg";
 export default function IPhoneModels() {
     return (
         <>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone 7 Plus`}
+                >
+                    <Card>
+                        <Card.Img
+                            variant="top"
+                            src={iPhone7Plus}
+                            style={{ maxHeight: "40vh", minHeight: "200px" }}
+                        />
+                        <Card.Title>Iphone 7 Plus</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone 8`}
+                >
+                    <Card>
+                        <Card.Img
+                            variant="top"
+                            src={iPhone8}
+                            style={{ maxHeight: "40vh", minHeight: "200px" }}
+                        />
+                        <Card.Title>Iphone 8</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone 8 plus`}
+                >
+                    <Card>
+                        <Card.Img
+                            variant="top"
+                            src={iPhone8Plus}
+                            style={{ maxHeight: "40vh", minHeight: "200px" }}
+                        />
+                        <Card.Title>Iphone 8 Plus</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone X`}
+                >
+                    <Card>
+                        <Card.Img
+                            variant="top"
+                            src={IphoneX}
+                            style={{ maxHeight: "40vh", minHeight: "200px" }}
+                        />
+                        <Card.Title>Iphone X</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
             <Col>
                 <Link
                     className="text-decoration-none text-dark text-center"

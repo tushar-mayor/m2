@@ -22,7 +22,7 @@ export default function Footer() {
                         <ul className="list-unstyled text-capitalize " style={{fontSize:"1.3rem"}}>
                             <li>Phone: 01789507470, 07848372777</li>
                             <li>
-                                Address: 31 henleu street, stratford-upon-avon,
+                                Address: 31 henley street, stratford-upon-avon,
                                 CV37 6QW{" "}
                             </li>
                         </ul>

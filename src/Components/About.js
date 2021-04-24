@@ -42,22 +42,13 @@ export default function About() {
                         </Col>
                         <Col
                             lg={6}
-                            className="  justify-content-center p-5 text-light"
+                            className="  justify-content-center p-5 py-5 text-light"
                         >
                             <Slide right cascade delay={1400}>
                                 <h1 className="text-uppercase font-weight-bold ">
                                     Core Value:
                                 </h1>
                                 <ol className="valueList text-white-50 p-0 m-3">
-                                    <li>
-                                        Our experienced and qualified engineers
-                                        have combined experience in this
-                                        industry of over 30 years.
-                                    </li>
-                                    <li>
-                                        We doubled our warranty to 6 months, so
-                                        we stand over our own work. Always.
-                                    </li>
                                     <li>
                                         Our No Fix/ No Fee policy means we don’t
                                         charge you if we can’t fix your device.

@@ -56,7 +56,10 @@ body {
 }
 .Services:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 10px #000;
+    outline: 1px solid #000;
+}
+.Services div {
+    flex-grow: 1;
 }
 /* .Services:hover {
   cursor: pointer;
@@ -119,7 +122,7 @@ body {
 }
 .ServiceCover::before {
     transform: scaleX(-1);
-    filter:grayscale(.3) blur(10px);
+    filter: grayscale(0.3) blur(10px);
 }
 /* Medium devices (mobiles, 768px and below) */
 
