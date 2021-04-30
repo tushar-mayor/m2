@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/m2/static/css/main.23321eaa.chunk.css",
-    "main.js": "/m2/static/js/main.4d8a65e4.chunk.js",
-    "main.js.map": "/m2/static/js/main.4d8a65e4.chunk.js.map",
-    "runtime-main.js": "/m2/static/js/runtime-main.9b8acfdb.js",
-    "runtime-main.js.map": "/m2/static/js/runtime-main.9b8acfdb.js.map",
+    "main.js": "/m2/static/js/main.e246b4b5.chunk.js",
+    "main.js.map": "/m2/static/js/main.e246b4b5.chunk.js.map",
+    "runtime-main.js": "/m2/static/js/runtime-main.46ea5456.js",
+    "runtime-main.js.map": "/m2/static/js/runtime-main.46ea5456.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/m2/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ea469b63.chunk.js": "/m2/static/js/2.ea469b63.chunk.js",
-    "static/js/2.ea469b63.chunk.js.map": "/m2/static/js/2.ea469b63.chunk.js.map",
-    "static/js/3.1da8e471.chunk.js": "/m2/static/js/3.1da8e471.chunk.js",
-    "static/js/3.1da8e471.chunk.js.map": "/m2/static/js/3.1da8e471.chunk.js.map",
+    "static/js/2.74d0398b.chunk.js": "/m2/static/js/2.74d0398b.chunk.js",
+    "static/js/2.74d0398b.chunk.js.map": "/m2/static/js/2.74d0398b.chunk.js.map",
+    "static/js/3.904becc0.chunk.js": "/m2/static/js/3.904becc0.chunk.js",
+    "static/js/3.904becc0.chunk.js.map": "/m2/static/js/3.904becc0.chunk.js.map",
     "index.html": "/m2/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/m2/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.23321eaa.chunk.css.map": "/m2/static/css/main.23321eaa.chunk.css.map",
-    "static/js/2.ea469b63.chunk.js.LICENSE.txt": "/m2/static/js/2.ea469b63.chunk.js.LICENSE.txt",
+    "static/js/2.74d0398b.chunk.js.LICENSE.txt": "/m2/static/js/2.74d0398b.chunk.js.LICENSE.txt",
     "static/media/Android.f12fb7c4.svg": "/m2/static/media/Android.f12fb7c4.svg",
     "static/media/Apple iPad 10.2 (2019).jpg": "/m2/static/media/Apple iPad 10.2 (2019).07f21de4.jpg",
     "static/media/Apple iPad 10.2 (2020).jpg": "/m2/static/media/Apple iPad 10.2 (2020).471f9183.jpg",
@@ -32,8 +32,6 @@
     "static/media/Apple iPad mini (2019).jpg": "/m2/static/media/Apple iPad mini (2019).b3943fb6.jpg",
     "static/media/Apple iPad mini 4 (2015).jpg": "/m2/static/media/Apple iPad mini 4 (2015).f8069f33.jpg",
     "static/media/Apple.b0933fdd.svg": "/m2/static/media/Apple.b0933fdd.svg",
-    "static/media/Asus.svg": "/m2/static/media/Asus.f49f938f.svg",
-    "static/media/HTC.svg": "/m2/static/media/HTC.ca5a5729.svg",
     "static/media/index.css": "/m2/static/media/welcome.ce8a65ed.jpg",
     "static/media/Huawei Enjoy 20 SE.jpg": "/m2/static/media/Huawei Enjoy 20 SE.3c6600a3.jpg",
     "static/media/Huawei Mate 30E Pro 5G.jpg": "/m2/static/media/Huawei Mate 30E Pro 5G.f4209738.jpg",
@@ -162,6 +160,11 @@
     "static/media/Sony.svg": "/m2/static/media/Sony.9d50e79a.svg",
     "static/media/Tablet.26728e72.svg": "/m2/static/media/Tablet.26728e72.svg",
     "static/media/Vape.9672e4ff.svg": "/m2/static/media/Vape.9672e4ff.svg",
+    "static/media/WhatsApp Image 2021-04-20 at 2.36.39 PM.jpeg": "/m2/static/media/WhatsApp Image 2021-04-20 at 2.36.39 PM.20deeadf.jpeg",
+    "static/media/WhatsApp Image 2021-04-20 at 2.36.41 PM.jpeg": "/m2/static/media/WhatsApp Image 2021-04-20 at 2.36.41 PM.94492cda.jpeg",
+    "static/media/WhatsApp Image 2021-04-20 at 2.36.43 PM.jpeg": "/m2/static/media/WhatsApp Image 2021-04-20 at 2.36.43 PM.56e397da.jpeg",
+    "static/media/WhatsApp Image 2021-04-20 at 2.36.55 PM.jpeg": "/m2/static/media/WhatsApp Image 2021-04-20 at 2.36.55 PM.3c509aff.jpeg",
+    "static/media/WhatsApp Image 2021-04-20 at 2.37.23 PM.jpeg": "/m2/static/media/WhatsApp Image 2021-04-20 at 2.37.23 PM.2aba52b7.jpeg",
     "static/media/iPhone 11 Pro Max.78782761.jpg": "/m2/static/media/iPhone 11 Pro Max.78782761.jpg",
     "static/media/iPhone 11 Pro.ef3388c5.jpg": "/m2/static/media/iPhone 11 Pro.ef3388c5.jpg",
     "static/media/iPhone 11.84520714.jpg": "/m2/static/media/iPhone 11.84520714.jpg",
@@ -179,10 +182,10 @@
     "static/media/iPhone XS.e6ac81d3.webp": "/m2/static/media/iPhone XS.e6ac81d3.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b8acfdb.js",
+    "static/js/runtime-main.46ea5456.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ea469b63.chunk.js",
+    "static/js/2.74d0398b.chunk.js",
     "static/css/main.23321eaa.chunk.css",
-    "static/js/main.4d8a65e4.chunk.js"
+    "static/js/main.e246b4b5.chunk.js"
   ]
 }
