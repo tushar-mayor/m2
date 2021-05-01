@@ -8,8 +8,8 @@ export default function Vape() {
     }, []);
     return (
         <>
-            <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
-                <Col lg={12} className="m-auto text-center text-dark">
+            <Row className=" font-weight-bold m-auto TabletCover Cover ">
+                <Col lg={12} className="m-auto text-center text-white">
                     <div>
                         <div className="row1">Service as a Service</div>
                         <div>
@@ -67,14 +67,6 @@ export default function Vape() {
                         vetted Technicians are experts and will meet you and
                         provide smartphone Repair- at your home, office or
                         anywhere whichever is convenient for you.{" "}
-                    </p>
-                    <p>
-                        <span className="text-dark font-weight-bold">
-                            Chamber Cleaning-
-                        </span>
-                        Water damaged motherboard, or display demands expert
-                        intervention! Get your smartphone repaired at best
-                        market price with up to 6 months warranty.
                     </p>
                     <p>
                         <span className="text-dark font-weight-bold">

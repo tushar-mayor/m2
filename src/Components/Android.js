@@ -8,8 +8,8 @@ export default function Android() {
     }, []);
     return (
         <>
-            <Row className="text-light  font-weight-bold m-auto TabletCover Cover ">
-                <Col lg={12} className="m-auto text-center text-dark">
+            <Row className=" font-weight-bold m-auto TabletCover Cover ">
+                <Col lg={12} className="m-auto text-center text-white">
                     <div>
                         <div className="row1">Service as a Service</div>
                         <div>

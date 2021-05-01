@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import MacbookModels from "./MacbookModels";
 export default function MacBook() {
     useEffect(() => {
-        document.title = "Macbooks";
+        document.title = "Macbook Models";
     }, []);
     return (
         <>

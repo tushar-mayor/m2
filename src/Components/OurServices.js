@@ -27,26 +27,25 @@ export default function OurServices() {
                     className="offset-lg-6 my-auto"
                     style={{ fontSize: "1.1rem" }}
                 >
-                    <div className="m-auto " >
-                        <h1 style={{fontWeight:"bolder"}}>OUR SERVICES</h1>
+                    <div className="m-auto ">
+                        <h1 style={{ fontWeight: "bolder" }}>OUR SERVICES</h1>
                         <br />
-                        <p style={{fontWeight:"bolder"}}>
+                        <p style={{ fontWeight: "bolder" }}>
                             We can assure you that we have seen it all! From
                             smartphones that have been run over by a car, to
                             cellphones that have taken a dive in a pool, we are
-                            prepared to face anything that comes our way. Every
-                            IRepair technician goes through an intensive
-                            training process, and we maintain an environment of
-                            constant learning, so no device is too new, no
-                            technology too complicated.
+                            prepared to face anything that comes our way. Our
+                            technicians goes through an intensive training
+                            process, and we maintain an environment of constant
+                            learning, so no device is too new, no technology too
+                            complicated.
                         </p>
                         <br />
-                        <p style={{fontWeight:"bolder"}}>
+                        <p style={{ fontWeight: "bolder" }}>
                             We love people and cell phones. So, you always get
-                            the best service and the best price. We are locally
-                            owned and operated with master level techs at each
-                            location. From charging ports to glass only repairs
-                            to antennas and speakers, we repair the most.
+                            the best service and the best price.From charging
+                            ports to screen only repairs to antennas and
+                            speakers, we repair the most.
                         </p>
                     </div>
                 </Col>

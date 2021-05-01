@@ -4,7 +4,7 @@ import IPhoneModels from "./IPhoneModels";
 
 export default function Iphone() {
     useEffect(() => {
-        document.title = "Iphone";
+        document.title = "iPhone Models";
     }, []);
     return (
         <>

@@ -23,12 +23,6 @@ export default function About() {
                             looking for the highest standard of repairs, from
                             value devices to the higher end electronics.
                         </p>
-                        <p className="lead">
-                            A lot of this growth is due to the system we use to
-                            repair devices nationwide. At the moment, this means
-                            over 200 happy customers per week, and we would love
-                            if you were number 201.
-                        </p>
                     </Fade>
                 </Row>
             </Container>
@@ -58,13 +52,6 @@ export default function About() {
                                         Our ‘No jargon’ communication with all
                                         of our customers, we don’t want anything
                                         to go over your head.
-                                    </li>
-                                    <li>
-                                        Our repair tracker means that you can
-                                        always keep an eye on the status of your
-                                        repair, and you will always have access
-                                        to the most up to date information, and
-                                        your repair history.
                                     </li>
                                 </ol>
                             </Slide>

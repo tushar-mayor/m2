@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function BrandModels(props) {
     const { Brand } = props.match.params;
+
+    useEffect(() => {
+        document.title = `${Brand} Models`;
+    }, [Brand]);
 
     function importAll(r) {
         let cardList = [];
@@ -96,7 +100,7 @@ export default function BrandModels(props) {
                                 padding: "1rem",
                                 maxWidth: "75%",
                                 margin: "0 auto",
-                                objectFit:"fill"
+                                objectFit: "fill",
                             }}
                         />
                         <Card.Title>{name}</Card.Title>
@@ -136,7 +140,7 @@ export default function BrandModels(props) {
         <Container className="p-5">
             <h1>{Brand} Models</h1>
             <Row className="row-cols-md-4 row-cols-1" style={{ gap: "2rem 0" }}>
-                {cards.map((card) => card)}
+                {cards.reverse().map((card) => card)}
             </Row>
         </Container>
     );

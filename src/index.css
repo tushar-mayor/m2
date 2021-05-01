@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    filter: blur(5px);
+    filter: blur(8px);
     height: 100%;
     width: 100%;
 }
@@ -61,15 +61,6 @@ body {
 .Services div {
     flex-grow: 1;
 }
-/* .Services:hover {
-  cursor: pointer;
-  color: #00c6b3;
-  transition: all 0.3s ease-in-out;
-}
-.Services:hover svg {
-  fill: #00c6b3;
-  transition: fill 0.3s ease-in-out;
-} */
 .HomeCover {
     background-image: url("./Assests/Images/Home.jpg");
     background-size: 100% 100%;
@@ -123,6 +114,12 @@ body {
 .ServiceCover::before {
     transform: scaleX(-1);
     filter: grayscale(0.3) blur(10px);
+}
+.brandHeading {
+    font-family: Helvetica, sans-serif;
+    line-height: 6rem;
+    font-size: 3rem !important;
+    text-decoration: underline;
 }
 /* Medium devices (mobiles, 768px and below) */
 
