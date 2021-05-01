@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/m2/static/css/main.23321eaa.chunk.css",
-    "main.js": "/m2/static/js/main.96f12a88.chunk.js",
-    "main.js.map": "/m2/static/js/main.96f12a88.chunk.js.map",
-    "runtime-main.js": "/m2/static/js/runtime-main.7f21a2f9.js",
-    "runtime-main.js.map": "/m2/static/js/runtime-main.7f21a2f9.js.map",
+    "main.js": "/m2/static/js/main.4da7d060.chunk.js",
+    "main.js.map": "/m2/static/js/main.4da7d060.chunk.js.map",
+    "runtime-main.js": "/m2/static/js/runtime-main.70b9a0ab.js",
+    "runtime-main.js.map": "/m2/static/js/runtime-main.70b9a0ab.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/m2/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.01360819.chunk.js": "/m2/static/js/2.01360819.chunk.js",
-    "static/js/2.01360819.chunk.js.map": "/m2/static/js/2.01360819.chunk.js.map",
-    "static/js/3.d09c5988.chunk.js": "/m2/static/js/3.d09c5988.chunk.js",
-    "static/js/3.d09c5988.chunk.js.map": "/m2/static/js/3.d09c5988.chunk.js.map",
+    "static/js/2.dc78c7d9.chunk.js": "/m2/static/js/2.dc78c7d9.chunk.js",
+    "static/js/2.dc78c7d9.chunk.js.map": "/m2/static/js/2.dc78c7d9.chunk.js.map",
+    "static/js/3.b2c83a0b.chunk.js": "/m2/static/js/3.b2c83a0b.chunk.js",
+    "static/js/3.b2c83a0b.chunk.js.map": "/m2/static/js/3.b2c83a0b.chunk.js.map",
     "index.html": "/m2/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/m2/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.23321eaa.chunk.css.map": "/m2/static/css/main.23321eaa.chunk.css.map",
-    "static/js/2.01360819.chunk.js.LICENSE.txt": "/m2/static/js/2.01360819.chunk.js.LICENSE.txt",
+    "static/js/2.dc78c7d9.chunk.js.LICENSE.txt": "/m2/static/js/2.dc78c7d9.chunk.js.LICENSE.txt",
     "static/media/Android.f12fb7c4.svg": "/m2/static/media/Android.f12fb7c4.svg",
     "static/media/Apple iPad 10.2 (2019).jpg": "/m2/static/media/Apple iPad 10.2 (2019).07f21de4.jpg",
     "static/media/Apple iPad 10.2 (2020).jpg": "/m2/static/media/Apple iPad 10.2 (2020).471f9183.jpg",
@@ -160,6 +160,10 @@
     "static/media/Samsung Galaxy A51.jpg": "/m2/static/media/Samsung Galaxy A51.cc6f6b0b.jpg",
     "static/media/Samsung Galaxy A52.jpg": "/m2/static/media/Samsung Galaxy A52.a1bf083b.jpg",
     "static/media/Samsung Galaxy M31.jpg": "/m2/static/media/Samsung Galaxy M31.29eacf94.jpg",
+    "static/media/Samsung Galaxy S10 Lite.jpg": "/m2/static/media/Samsung Galaxy S10 Lite.f9c49d3b.jpg",
+    "static/media/Samsung Galaxy S10+.jpg": "/m2/static/media/Samsung Galaxy S10+.1b8cf1fb.jpg",
+    "static/media/Samsung Galaxy S10.jpg": "/m2/static/media/Samsung Galaxy S10.45d509b9.jpg",
+    "static/media/Samsung Galaxy S10e.jpg": "/m2/static/media/Samsung Galaxy S10e.912a7f2f.jpg",
     "static/media/Samsung Galaxy S20 Ultra.jpg": "/m2/static/media/Samsung Galaxy S20 Ultra.ad0abb82.jpg",
     "static/media/Samsung Galaxy S20+.jpg": "/m2/static/media/Samsung Galaxy S20+.88aaaaef.jpg",
     "static/media/Samsung Galaxy S20.jpg": "/m2/static/media/Samsung Galaxy S20.e4a1a2df.jpg",
@@ -169,6 +173,8 @@
     "static/media/Samsung Galaxy S21.jpg": "/m2/static/media/Samsung Galaxy S21.7e5960ed.jpg",
     "static/media/Samsung Galaxy S6.jpg": "/m2/static/media/Samsung Galaxy S6.26f35960.jpg",
     "static/media/Samsung Galaxy S8.jpg": "/m2/static/media/Samsung Galaxy S8.482eaf1d.jpg",
+    "static/media/Samsung Galaxy S9+.jpg": "/m2/static/media/Samsung Galaxy S9+.3e07b6e8.jpg",
+    "static/media/Samsung Galaxy S9.jpg": "/m2/static/media/Samsung Galaxy S9.58e519fe.jpg",
     "static/media/Samsung Galaxy s7.jpg": "/m2/static/media/Samsung Galaxy s7.f5004512.jpg",
     "static/media/Samsung.svg": "/m2/static/media/Samsung.797acdb9.svg",
     "static/media/Sony Xperia 1 II.jpg": "/m2/static/media/Sony Xperia 1 II.8e2d47d6.jpg",
@@ -214,10 +220,10 @@
     "static/media/iPhone XS.e6ac81d3.webp": "/m2/static/media/iPhone XS.e6ac81d3.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f21a2f9.js",
+    "static/js/runtime-main.70b9a0ab.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.01360819.chunk.js",
+    "static/js/2.dc78c7d9.chunk.js",
     "static/css/main.23321eaa.chunk.css",
-    "static/js/main.96f12a88.chunk.js"
+    "static/js/main.4da7d060.chunk.js"
   ]
 }
