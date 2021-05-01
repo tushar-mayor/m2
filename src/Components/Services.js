@@ -11,7 +11,7 @@ export default function Services() {
     return (
         <Container fluid className="my-3 py-3">
             <Row
-                className="row-cols-md-3 row-cols-1 justify-content-around  m-0 yoieee"
+                className="row-cols-md-3 row-cols-1 justify-content-center  m-0 yoieee"
                 style={{ gap: "20px 0" }}
             >
                 <Col>
@@ -66,7 +66,7 @@ export default function Services() {
                     <Col className="d-flex align-items-center">
                         <Slide right fraction={0.4}>
                             <NavLink
-                                to="/Iphone"
+                                to="/Ipad"
                                 className=" text-decoration-none  text-dark"
                             >
                                 <Row className="Services  py-2">
@@ -90,7 +90,7 @@ export default function Services() {
                     <Col className="d-flex align-items-center">
                         <Slide left fraction={0.4}>
                             <NavLink
-                                to="/Iphone"
+                                to="/Macbook"
                                 className=" text-decoration-none  text-dark"
                             >
                                 <Row className="Services  py-2">
@@ -114,7 +114,7 @@ export default function Services() {
                     <Col className="d-flex align-items-center">
                         <Slide right fraction={0.4}>
                             <NavLink
-                                to="/Iphone"
+                                to="/Vape"
                                 className=" text-decoration-none  text-dark"
                             >
                                 <Row className="Services  py-2">

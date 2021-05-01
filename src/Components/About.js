@@ -32,7 +32,7 @@ export default function About() {
                     </Fade>
                 </Row>
             </Container>
-            <Container fluid>
+            <Container fluid className="my-5">
                 <Fade delay={1300}>
                     <Row className=" p-3 bg-dark">
                         <Col lg={6} className="m-0 p-0 px-md-3">

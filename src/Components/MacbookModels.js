@@ -12,9 +12,9 @@ export default function IPhoneModels() {
         return cardList;
     }
 
-    const Ipad = importAll(
+    const Mac = importAll(
         require.context(
-            "../Assests/Images/Ipad",
+            "../Assests/Images/Mac",
             false,
             /\.(png|jpe?g|svg|webp)$/
         )
@@ -35,9 +35,10 @@ export default function IPhoneModels() {
                             style={{
                                 maxHeight: "40vh",
                                 minHeight: "10rem",
-                                padding: "3rem",
+                                padding: "2rem",
                                 objectFit: "fill",
                             }}
+                            height="80%"
                         />
                         <Card.Title>{name}</Card.Title>
                     </Card>
@@ -45,7 +46,7 @@ export default function IPhoneModels() {
             </Col>
         );
     };
-    const cards = Ipad.map((image) => links(image));
+    const cards = Mac.map((image) => links(image));
 
     return <>{cards.map((card) => card)}</>;
 }

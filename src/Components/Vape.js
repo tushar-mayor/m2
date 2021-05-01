@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import VapeModels from "./VapeModels";
 
 export default function Vape() {
     useEffect(() => {
@@ -24,9 +25,18 @@ export default function Vape() {
                     </div>
                 </Col>
             </Row>
+
+            <Container className="mt-4 ">
+                <h1 className="text-dark text-uppercase">Vape Services</h1>
+            </Container>
+            <Row
+                className=" row-cols-1 row-cols-md-3 justify-content-center p-4 "
+                style={{ gridGap: "20px 0" }}
+            >
+                <VapeModels />
+            </Row>
             <Container>
                 <Row className="p-3 text-muted">
-                    <h1 className="text-dark">Vape Services</h1>
                     <p>
                         <span className="text-dark font-weight-bold">
                             Sale –

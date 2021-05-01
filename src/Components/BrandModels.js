@@ -64,6 +64,13 @@ export default function BrandModels(props) {
             /\.(png|jpe?g|svg|webp)$/
         )
     );
+    const Motorola = importAll(
+        require.context(
+            "../Assests/Images/Motorola",
+            false,
+            /\.(png|jpe?g|svg|webp)$/
+        )
+    );
 
     let cards = [];
 
@@ -76,17 +83,21 @@ export default function BrandModels(props) {
                     to={`/Phone/${name}`}
                     key={name}
                 >
-                    <Card className="h-100" style={{ minHeight: "20rem" }}>
+                    <Card
+                        style={{ minHeight: "20rem" }}
+                        className="d-flex justify-content-around"
+                    >
                         <Card.Img
                             variant="top"
                             src={url}
                             style={{
                                 maxHeight: "40vh",
                                 minHeight: "10rem",
-                                padding: "2rem",
-                                objectFit: "fill",
+                                padding: "1rem",
+                                maxWidth: "75%",
+                                margin: "0 auto",
+                                objectFit:"fill"
                             }}
-                            height="80%"
                         />
                         <Card.Title>{name}</Card.Title>
                     </Card>
@@ -113,6 +124,9 @@ export default function BrandModels(props) {
             break;
         case "OnePlus":
             cards = OnePlus.map((image) => links(image));
+            break;
+        case "Motorola":
+            cards = Motorola.map((image) => links(image));
             break;
         default:
             cards = Nokia.map((image) => links(image));

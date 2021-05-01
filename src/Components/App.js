@@ -12,6 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 import ItemScreen from "./ItemScreen";
 import NavBar from "./NavBar";
 import BrandModels from "./BrandModels";
+import MacBook from "./MacBook";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/Iphone" component={Iphone} />
                 <Route path="/Ipad" component={Ipad} />
                 <Route path="/Vape" component={Vape} />
+                <Route path="/Macbook" component={MacBook} />
                 <Route path="/Services" component={OurServices} />
                 <Route path="/Phone/:Model" component={ItemScreen} />
                 <Route path="/BrandModel/:Brand" component={BrandModels} />

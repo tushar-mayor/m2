@@ -1,6 +1,9 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import iPhone6Plus from "../Assests/Images/Apple/iPhone 6 Plus.jpg";
+import iPhone6sPlus from "../Assests/Images/Apple/iPhone 6s Plus.jpg";
+import iPhone7 from "../Assests/Images/Apple/iPhone 7.jpg";
 import iPhone7Plus from "../Assests/Images/Apple/iPhone 7 plus.jpg";
 import iPhone8 from "../Assests/Images/Apple/iPhone 8.webp";
 import iPhone8Plus from "../Assests/Images/Apple/iPhone 8+.webp";
@@ -19,6 +22,66 @@ import IphoneSE from "../Assests/Images/Apple/iPhone SE 2020.jpg";
 export default function IPhoneModels() {
     return (
         <>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone 6 Plus`}
+                >
+                    <Card className="p-1">
+                        <Card.Img
+                            variant="top"
+                            src={iPhone6Plus}
+                            style={{
+                                maxHeight: "40vh",
+                                minHeight: "200px",
+                                maxWidth: "70%",
+                                margin: "0 auto",
+                            }}
+                        />
+                        <Card.Title>Iphone 6 Plus</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone 6s Plus`}
+                >
+                    <Card className="p-1">
+                        <Card.Img
+                            variant="top"
+                            src={iPhone6sPlus}
+                            style={{
+                                maxHeight: "40vh",
+                                minHeight: "200px",
+                                maxWidth: "70%",
+                                margin:"0 auto"
+                            }}
+                        />
+                        <Card.Title>Iphone 6s Plus</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
+            <Col>
+                <Link
+                    className="text-decoration-none text-dark text-center"
+                    to={`/Phone/Iphone 7`}
+                >
+                    <Card className="p-1">
+                        <Card.Img
+                            variant="top"
+                            src={iPhone7}
+                            style={{
+                                maxHeight: "40vh",
+                                minHeight: "200px",
+                                maxWidth: "75%",
+                                margin:"0 auto"
+                            }}
+                        />
+                        <Card.Title>Iphone 7</Card.Title>
+                    </Card>
+                </Link>
+            </Col>
             <Col>
                 <Link
                     className="text-decoration-none text-dark text-center"
